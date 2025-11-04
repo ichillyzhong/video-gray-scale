@@ -4,6 +4,9 @@
 
 ## 效果展示
 
+### 原始视频
+![原始视频](images/original.png)
+
 ### 处理界面
 ![处理界面](images/processing.png)
 
