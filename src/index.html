@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WebGL灰度滤镜与FFmpeg.js视频合成</title>
+</head>
+<body>
+
+    <video id="inputVideo" controls muted width="640" height="480" style="display: none;"></video>
+    <input type="file" id="videoFile" accept="video/*"><br><br>
+
+    <canvas id="filterCanvas" width="640" height="480" style="border: 1px solid #ccc;"></canvas>
+    
+    <p id="status">等待上传视频...</p>
+    <button id="processBtn" disabled>开始灰度处理并合成视频</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@ffmpeg/ffmpeg@0.11.6/dist/ffmpeg.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
