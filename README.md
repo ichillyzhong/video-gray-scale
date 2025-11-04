@@ -32,16 +32,16 @@
 
 ```
 ├── src/                    # 源代码目录
-│   ├── index.html         # 主应用页面
+│   ├── index.html          # 主应用页面
 │   └── js/
-│       └── app.js         # 核心处理逻辑
-├── docs/                  # 文档目录
-│   ├── PRD.md            # 产品需求文档
-│   └── TDD.md            # 技术设计文档
-├── server.js             # Express 服务器
-├── package.json          # 项目配置和依赖
-├── .gitignore           # Git 忽略文件
-└── README.md            # 项目说明
+│       └── app.js          # 核心处理逻辑
+├── docs/                   # 文档目录
+│   ├── PRD.md              # 产品需求文档
+│   └── TDD.md              # 技术设计文档
+├── server.js               # Express 服务器
+├── package.json            # 项目配置和依赖
+├── .gitignore              # Git 忽略文件
+└── README.md               # 项目说明
 ```
 
 ## 使用方法
